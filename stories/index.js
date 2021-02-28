@@ -18,6 +18,8 @@ import "index.scss";
 
 import Button from "components/Button";
 
+//const axios = require('axios');
+
 storiesOf("Button", module)
   .addParameters({
     backgrounds: [{ name: "dark", value: "#222f3e", default: true }],

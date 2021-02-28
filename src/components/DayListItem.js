@@ -7,30 +7,27 @@ import "components/DayListItem.scss";
 //This is the daylist Item COMPONENT
 
 export default function DayListItem(props) {
-  console.log(props.children);
-  
-  
   const Itemname = classNames("day-list__item", {
     "--selected": props.selected,
     "--full": props.full,
   });
 
-function formatSpots(props) {
-  if (props.spots === 0 ) {
-    return `no spots remaining`; 
-  } else if (props.spots === 1) {
-    return `${props.spots} spot remaining`;
-  } else if (props.spots >= 2) {
-    return `${props.spots} spots remaining`; 
+  function formatSpots(props) {
+    if (props.spots === 0) {
+      return `no spots remaining`;
+    } else if (props.spots === 1) {
+      return `${props.spots} spot remaining`;
+    } else if (props.spots >= 2) {
+      return `${props.spots} spots remaining`;
+    }
   }
 
-}
-
   return (
-    <li onClick={() => props.setDay(props.name)}>     
-      <h2 className={Itemname}>{props.name}
-      <h3>{formatSpots(props)}</h3>
-      </h2>
+    <li onClick={() => props.setDay(props.name)}>
+      <h3 className={Itemname}>
+        {props.name}
+        <div>{formatSpots(props)}</div>
+      </h3>
     </li>
   );
 }
@@ -44,7 +41,6 @@ function formatSpots(props) {
 // (name, spots, selected) and one action (setDay) as props,
 // so we'll need to update our DayListItem component to reflect
 // this after building our stories.
-
 
 // return (
 //   <button
