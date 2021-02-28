@@ -1,6 +1,6 @@
 # Interview Scheduler
 
-Interview Scheduler is a complex application that can create appointments in a selected time slot and store them in a database. It gives you a list of available interviewers to choose from, and calculates available timeslots based on a current count of booked apointments. It also gives you the option to edit your appointment details or delete it entirely.  
+Interview Scheduler is a complex application that can create appointments in a selected time slot and store them in a database. It gives you a list of available interviewers to choose from, and calculates available timeslots based on a current count of booked appointments. It also gives you the option to edit your appointment details or delete it entirely.  
 
 ## Final Product
 
