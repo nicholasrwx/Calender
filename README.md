@@ -4,15 +4,6 @@ Interview Scheduler is a complex application that can create appointments in a s
 
 ## Final Product
 
-!["create"](https://github.com/nicholasrwx/scheduler/blob/master/docs/create.png?raw=true)
-
-!["save"](https://github.com/nicholasrwx/scheduler/blob/master/docs/save.png?raw=true)
-
-!["booked"](https://github.com/nicholasrwx/scheduler/blob/master/docs/booked.png?raw=true)
-
-!["confirm"](https://github.com/nicholasrwx/scheduler/blob/master/docs/confirm.png?raw=true)
-
-!["delete"](https://github.com/nicholasrwx/scheduler/blob/master/docs/delete.png?raw=true)
 
 ## Getting Started
 
